@@ -10,5 +10,5 @@ class Solution(object):
             k += digits[j] * (10 ** i)
             i += 1
         k += 1
-        return [int(d) for d in str(k )]
+        return [int(d) for d in str(k)]
         
